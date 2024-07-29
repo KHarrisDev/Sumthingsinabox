@@ -17,7 +17,11 @@ const config: Config = {
     colors: {
       siab: "#f35c7a",
       white: "#FFFFFF",
-      lightGray: "#F3F4F6",
+      lightGray: "#fcfcfd",
+      mdGray: "##c0bdc6",
+      gray: "#aba6b3",
+      blue: "#0062cc",
+      black: "#000",
     },
   },
   plugins: [],
