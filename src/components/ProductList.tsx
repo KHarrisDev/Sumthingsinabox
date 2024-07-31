@@ -38,7 +38,7 @@ export default function ProductList() {
       >
         <div className="relative w-full h-80">
           <Image
-            src="https://images.pexels.com/photos/264985/pexels-photo-264985.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/360624/pexels-photo-360624.jpeg?auto=compress&cs=tinysrgb&w=800"
             alt=""
             fill
             sizes="25vw"
@@ -66,7 +66,7 @@ export default function ProductList() {
       >
         <div className="relative w-full h-80">
           <Image
-            src="https://images.pexels.com/photos/5486844/pexels-photo-5486844.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/3434533/pexels-photo-3434533.jpeg?auto=compress&cs=tinysrgb&w=800"
             alt=""
             fill
             sizes="25vw"
@@ -94,7 +94,7 @@ export default function ProductList() {
       >
         <div className="relative w-full h-80">
           <Image
-            src="https://images.pexels.com/photos/5486844/pexels-photo-5486844.jpeg?auto=compress&cs=tinysrgb&w=800"
+            src="https://images.pexels.com/photos/4041318/pexels-photo-4041318.jpeg?auto=compress&cs=tinysrgb&w=800"
             alt=""
             fill
             sizes="25vw"
