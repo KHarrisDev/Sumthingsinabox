@@ -11,7 +11,6 @@ const wixClient = createClient({
   modules: {
     products,
     collections,
-    //currentCart
   },
   auth: OAuthStrategy({
     clientId: process.env.NEXT_PUBLIC_WIX_CLIENT_ID!,
@@ -26,7 +25,11 @@ export type WixClient = typeof wixClient;
 
 export const WixClientContext = createContext<WixClient>(wixClient);
 
-export const WixClientProvider = ({ children }: { children: ReactNode }) => {
+export const WixClientContextProvider = ({
+  children,
+}: {
+  children: ReactNode;
+}) => {
   return (
     <WixClientContext.Provider value={wixClient}>
       {children}
